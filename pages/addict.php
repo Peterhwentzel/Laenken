@@ -5,13 +5,15 @@
 	</div>
 	<div id="sidebar-content">
 		<a href="?page=index" class="btn btn-default btn-lg col-xs-12 btn-type1">Forside</a>
-		<a href="#" class="btn btn-default btn-lg col-xs-12 btn-type1">Hjælp</a>
-		<a href="#" class="btn btn-default btn-lg col-xs-12 btn-type2">Hjælp</a>
+		<a href="?page=subPageAddict1" class="btn btn-default btn-lg col-xs-12 btn-type1">Et liv uden?</a>
+		<a href="?page=subPageAddict2" class="btn btn-default btn-lg col-xs-12 btn-type1">Hvad kan jeg gøre?</a>
+		<a href="?page=help" class="btn btn-default btn-lg col-xs-12 btn-type1">Hjælp</a>
+		<a href="?page=help" class="btn btn-default btn-lg col-xs-12 btn-type2">Hjælp</a>
 	</div>
 </aside>
 
 <div id="content" class="container">
-	<div class="bigImage"></div>
+	<!--<img src="images/.jpg" id="page-img"/>-->
 	<div class="text">
 		<h3>SØG HJÆLP OG FÅ BEHANDLING</h3>
 		<p><b>Hvorfor søge hjælp?</b><br />
