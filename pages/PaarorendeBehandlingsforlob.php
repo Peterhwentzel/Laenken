@@ -5,9 +5,11 @@
 	</div>
 	<div id="sidebar-content">
 		<a href="?page=index" class="btn btn-default btn-lg col-xs-12 btn-type1">Forside</a>
-		<a href="?page=relative" class="btn btn-default btn-lg col-xs-12 btn-type1">Pårørende</a>
-		<a href="?page=subPageRelative1" class="btn btn-default btn-lg col-xs-12 btn-type1">Du er ikke alene</a>
-		<a href="?page=help" class="btn btn-default btn-lg col-xs-12 btn-type1">Hjælp</a>
+		<a href="?page=Paarorende" class="btn btn-default btn-lg col-xs-12 btn-type1">Pårørende</a>
+		<a href="?page=PaarorendeTegnpaaetmisbrug" class="btn btn-default btn-lg col-xs-12 btn-type1">Tegn på et misbrug</a>
+		<a href="?page=PaarorendeSamvaerstotteognetvaerk" class="btn btn-default btn-lg col-xs-12 btn-type1">Samvær, støtte og netværk</a>
+		<a href="?page=PaarorendeNyttigelinks" class="btn btn-default btn-lg col-xs-12 btn-type1">Nyttige links</a>
+		<a href="?page=PaarorendeKontakt" class="btn btn-default btn-lg col-xs-12 btn-type1">Hjælp</a>
 	</div>
 </aside>
 

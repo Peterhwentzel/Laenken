@@ -5,11 +5,12 @@
 	</div>
 	<div id="sidebar-content">
 		<a href="?page=index" class="btn btn-default btn-lg col-xs-12 btn-type1">Forside</a>
-		<a href="?page=addict" class="btn btn-default btn-lg col-xs-12 btn-type1">Misbruger</a>
+		<a href="?page=Misbruger" class="btn btn-default btn-lg col-xs-12 btn-type1">Misbruger</a>
 		<a href="?page=Saadanstarterbehandlingen" class="btn btn-default btn-lg col-xs-12 btn-type1">Sådan starter behandlingen</a>
 		<a href="?page=Alkoholbehandlingen" class="btn btn-default btn-lg col-xs-12 btn-type1">Alkoholbehandlingen</a>
 		<a href="?page=Behandlingsforlob" class="btn btn-default btn-lg col-xs-12 btn-type1">Behandlingsforløb</a>
-		<a href="?page=help" class="btn btn-default btn-lg col-xs-12 btn-type1">Hjælp</a>
+		<a href="?page=Samvaerstotteognetvaerk" class="btn btn-default btn-lg col-xs-12 btn-type1">Samvær, støtte og netværk</a>
+		<a href="?page=MisbrugerKontakt" class="btn btn-default btn-lg col-xs-12 btn-type1">Kontakt</a>
 	</div>
 </aside>
 
