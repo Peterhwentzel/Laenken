@@ -5,31 +5,36 @@
 	</div>
 	<div id="sidebar-content">
 		<a href="?page=index" class="btn btn-default btn-lg col-xs-12 btn-type1">Forside</a>
-		<a href="?page=subPageAddict1" class="btn btn-default btn-lg col-xs-12 btn-type1">Et liv uden?</a>
-		<a href="?page=subPageAddict2" class="btn btn-default btn-lg col-xs-12 btn-type1">Hvad kan jeg gøre?</a>
+		<a href="?page=Hvorforsogehjaelp" class="btn btn-default btn-lg col-xs-12 btn-type1">Hvorfor søge hjælp?</a>
+		<a href="?page=Saadanstarterbehandlingen" class="btn btn-default btn-lg col-xs-12 btn-type1">Sådan starter behandlingen</a>
+		<a href="?page=Alkoholbehandlingen" class="btn btn-default btn-lg col-xs-12 btn-type1">Alkoholbehandlingen</a>
+		<a href="?page=Behandlingsforlob" class="btn btn-default btn-lg col-xs-12 btn-type1">Behandlingsforløb</a>
+		<a href="?page=Alkoholbehandlingen" class="btn btn-default btn-lg col-xs-12 btn-type1"></a>
 		<a href="?page=help" class="btn btn-default btn-lg col-xs-12 btn-type1">Hjælp</a>
-		<a href="?page=help" class="btn btn-default btn-lg col-xs-12 btn-type2">Hjælp</a>
 	</div>
 </aside>
 
 <div id="content" class="container">
 	<!--<img src="images/.jpg" id="page-img"/>-->
 	<div class="text">
-		<h3>SØG HJÆLP OG FÅ BEHANDLING</h3>
-		<p><b>Hvorfor søge hjælp?</b><br />
-		Det kan være svært at vide, hvornår man
-		passerer grænsen mellem almindeligt og
-		overdrevent alkoholforbrug.
-		De følgende tegn bør du især være
-		opmærksom på:</p>
+		<h3>Patient</h3>
+		<p><b>Vores tilbud…</b><br>
 		<ul>
-			<li><p>Flere har sagt, de synes, du drikker formeget</p></li>
-			<li><p>Du har svigtet vigtige aftaler på grund af alkohol</p></li>
-			<li><p>Du har haft sygedage på grund af tømmermænd</p></li>
-			<li><p>Du skal drikke mere end tidligere for at blive påvirket</p></li>
-			<li><p>Svækket evne til at styre indtagelsen, standse eller nedsætte brugen af alkohol</p></li>
-			<li><p>Du oplever uimodståelig trang til at drikke</p></li>
+			<li><p>Er gratis</p></li>
+			<li><p>Kræver ingen henvisning. Du kan henvende dig direkte på et af vores ambulatorier</p></li>
+			<li><p>Har ingen ventetid</p></li>
+			<li><p>Kan foregå anonymt</p></li>
+			<li><p>Foregår ambulant uden indlæggelse, så du kan passe dine daglige gøremål</p></li>
+			<li><p>Giver mulighed for behandling, hvor din familie og nærmeste pårørende inddrages sammen med dig</p></li>
+			<li><p>Giver mulighed for ekstra støtte fra vores store netværk af frivillige i Landsforeningen Lænken, både under og efter et behandlingsforløb</p></li>
+			<li><p>Er til dig, der overvejer at nedsætte dit forbrug af alkohol</p></li>
+			<li><p>Er til dig, der vil bryde din afhængighed</p></li>
+			<li><p>Er til dig, der helt vil stoppe med at drikke </p></li>
 		</ul>
+		<h3>LÆNKE-AMBULATORIERNE</h3>
+		<p>
+		Lænke-ambulatorierne har over 50 års erfaring. Behandlingen varetages af læger, sygeplejersker, socialrådgivere, pædagoger og psykologer, med uddannelse særlig kompetence inden for alkoholbehandling. I både den samtalebaserede og medicinske behandling benyttes metoder med veldokumenteret effekt. Samtalerne i behandlingen bygger primært på kognitiv adfærdsterapi. Her er målet, at du bliver i stand til at ændre de tanke- og handlemønstre, der opretholder et problematisk forbrug af alkohol.
+		</p>
 	</div>
 </div>
 <script>

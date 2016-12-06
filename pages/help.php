@@ -7,8 +7,6 @@
 		<a href="?page=index" class="btn btn-default btn-lg col-xs-12 btn-type1">Forside</a>
 		<a href="?page=addict" class="btn btn-default btn-lg col-xs-12 btn-type1">Misbruger</a>
 		<a href="?page=relative" class="btn btn-default btn-lg col-xs-12 btn-type1">Pårørende</a>
-		<a href="#" class="btn btn-default btn-lg col-xs-12 btn-type1">Hjælp</a>
-		<a href="#" class="btn btn-default btn-lg col-xs-12 btn-type2">Hjælp</a>
 	</div>
 </aside>
 

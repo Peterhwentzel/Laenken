@@ -8,7 +8,6 @@
 		<a href="?page=relative" class="btn btn-default btn-lg col-xs-12 btn-type1">Pårørende</a>
 		<a href="?page=subPageRelative2" class="btn btn-default btn-lg col-xs-12 btn-type1">Andre som dig</a>
 		<a href="?page=help" class="btn btn-default btn-lg col-xs-12 btn-type1">Hjælp</a>
-		<a href="?page=help" class="btn btn-default btn-lg col-xs-12 btn-type2">Hjælp</a>
 	</div>
 </aside>
 
