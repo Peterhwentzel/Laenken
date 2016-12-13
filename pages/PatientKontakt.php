@@ -1,5 +1,5 @@
 <?php
-	include("includes/sidemenuPaarorende.php");
+	include("includes/sidemenuPatient.php");
 ?>
 
 <div id="content" class="container">
@@ -8,6 +8,8 @@
       <h3>FIND DIT LOKALE LÆNKE-AMBULATORIUM</h3>
       <p>Du behøver ingen aftale for at møde op i åbningstiden. Uanset hvor du bor, er alle Lænke-ambulatorier åbne for dig.</p>
       <p style="text-align:center;"><b>Se åbningstider og læs mere på<b> <br><a href="http://www.laenken.dk">www.laenken.dk</a>
+
+
       <div class="list-group">
           <a href="tel:39455544" class="list-group-item list-group-item-info">
               <h4 class="list-group-item-heading">AMAGER</h4>
@@ -56,29 +58,3 @@
       </div> 
     </div>
 </div>
-
-					
-					
-
-					
-					
-
-					
-				
-
-					
-					
-
-					
-					
-
-					
-					
-
-					
-					
-
-					
-					
-
-					

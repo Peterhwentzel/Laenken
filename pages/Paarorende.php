@@ -1,19 +1,7 @@
-<aside id="sidebar" data-show="false">
-	<div id="sidebar-handle">
-		<span id="sidebar-handle-icon-left" class="glyphicon glyphicon-chevron-left"></span>
-		<span id="sidebar-handle-icon-right" class="glyphicon glyphicon-chevron-right"></span>
-	</div>
-	<div id="sidebar-content">
-		<a href="?page=index" class="btn btn-default btn-lg col-xs-12 btn-type1">Forside</a>
-		<a href="?page=PaarorendeTegnpaaetmisbrug" class="btn btn-default btn-lg col-xs-12 btn-type1">Tegn på et misbrug</a>
-		<a href="?page=PaarorendeBehandlingsforlob" class="btn btn-default btn-lg col-xs-12 btn-type1">Behandlingsforløb</a>
-		<a href="?page=PaarorendeSamvaerstotteognetvaerk" class="btn btn-default btn-lg col-xs-12 btn-type1">Samvær, støtte og netværk</a>
-		<a href="?page=PaarorendeNyttigelinks" class="btn btn-default btn-lg col-xs-12 btn-type1">Nyttige links</a>
-		<a href="?page=PaarorendeKontakt" class="btn btn-default btn-lg col-xs-12 btn-type1">Kontakt</a>
-	</div>
-</aside>
+<?php
+	include("includes/sidemenuPaarorende.php");
+?>
 <div id="content" class="container">
-	<div class="bigImage"></div>
 	<div class="text">
 		<h3>Pårørende</h3>
 		<p><b>Vores tilbud…</b><br>
@@ -34,10 +22,6 @@
 		</p>
 	</div>
 </div>
-<script>
-$(function() {
-	$("#sidebar-handle").on("click", function(){
-		$("#sidebar").attr("data-show", !($("#sidebar").attr("data-show") == "true"));
-	});
-});
-</script>
+
+
+

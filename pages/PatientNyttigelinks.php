@@ -1,11 +1,11 @@
 <?php
-	include("includes/sidemenuPaarorende.php");
+	include("includes/sidemenuPatient.php");
 ?>
 
 <div id="content" class="container">
 	<!--<img src="images/.jpg" id="page-img"/>-->
 	<div class="text">
-		<h3>Lænkens hovedside</h3>
+	<h3>Lænkens hovedside</h3>
 		<ul>
 			<li><a href="http://www.laenken.dk">www.laenken.dk</a></li>
 		</ul>
@@ -26,4 +26,3 @@
 		</ul>
 	</div>
 </div>
-

@@ -1,19 +1,6 @@
-<aside id="sidebar" data-show="false">
-	<div id="sidebar-handle">
-		<span id="sidebar-handle-icon-left" class="glyphicon glyphicon-chevron-left"></span>
-		<span id="sidebar-handle-icon-right" class="glyphicon glyphicon-chevron-right"></span>
-	</div>
-	<div id="sidebar-content">
-		<a href="?page=index" class="btn btn-default btn-lg col-xs-12 btn-type1">Forside</a>
-		<a href="?page=Misbruger" class="btn btn-default btn-lg col-xs-12 btn-type1">Misbruger</a>
-		<a href="?page=Hvorforsogehjaelp" class="btn btn-default btn-lg col-xs-12 btn-type1">Hvorfor søge hjælp?</a>
-		<a href="?page=Alkoholbehandlingen" class="btn btn-default btn-lg col-xs-12 btn-type1">Alkoholbehandlingen</a>
-		<a href="?page=Behandlingsforlob" class="btn btn-default btn-lg col-xs-12 btn-type1">Behandlingsforløb</a>
-		<a href="?page=Samvaerstotteognetvaerk" class="btn btn-default btn-lg col-xs-12 btn-type1">Samvær, støtte og netværk</a>
-		<a href="?page=MisbrugerKontakt" class="btn btn-default btn-lg col-xs-12 btn-type1">Kontakt</a>
-	</div>
-</aside>
-
+<?php
+	include("includes/sidemenuPatient.php");
+?>
 <div id="content" class="container">
 	<div class="text">
 		<h3>Sådan starter behandlingen</h3>
@@ -34,18 +21,5 @@
 		</ul>
 		<p>Der kan være elementer af undervisning<br>
 		– fx i alkoholens påvirkning af krop, psyke og relationer. En samtale varer ca. 45 minutter, og du vil evt. Have træningsopgaver hjemme mellem samtalerne.</p>
+	</div>
 </div>
-<script>
-$(function() {
-	$("#sidebar-handle").on("click", function(){
-		$("#sidebar").attr("data-show", !($("#sidebar").attr("data-show") == "true"));
-	});
-});
-</script>
-
-
-
-								
-
-									
-

@@ -15,7 +15,6 @@ body {
 	color: #FFF;
 	text-shadow: none;
 	border:none;
-	margin-top: 0px!important;
 	border-radius: 0;
 }
 /*
@@ -26,6 +25,45 @@ body {
 	color: #eb6751;
 	background-color:#f4f3eb;
 }*/
+
+#desktop-header {
+	display:block;
+}
+#mobile-header {
+	display:none;
+}
+#desktop-footer {
+	display:block;
+}
+#bottombar {
+	display:none;
+}
+@media (max-width: 768px) {
+	#desktop-header {
+		display:none;
+	}
+	#mobile-header {
+		display:block;
+	}
+	#desktop-footer {
+		display:none;
+	}
+	#bottombar {
+		display:block;
+	}
+	 header span {
+		float:left;
+        padding-left: 5px;
+		font-size:17px;
+		color:#000;
+		line-height:30px;
+		margin-top:10px;
+	}
+	.header-img{
+		height: auto;
+		max-height: 300px;
+	}
+}
 
 /******************************************************/
 /********************** Index *************************/
@@ -45,20 +83,19 @@ header {
         height: 70px;
         width: 70px;
         border-radius: 8px;
+		margin-left: 5px;
     }
-    header span {
+@media (min-width: 768px){
+	header span {
 		float:left;
-        line-height: 70px;
-        padding-left: 15px;
-		color:#FFF;
-		font-size: 30px;
-    }
-	
-#index-banner {
-	width:100%;
+		padding-left: 15px;
+		font-size:20px;
+		color:#000;
+		line-height:30px;
+		margin-top:10px;
+	}
 }
-
-
+	
 /******************************************************/
 /********************** Pages *************************/
 /******************************************************/
@@ -68,6 +105,10 @@ header {
 }
 	.text h3 {
 		color:#69c3c4;
+	}
+	.text p{
+		text-align: justify;
+		margin-right: 15px;
 	}
 	.text ul {
 		list-style:none;
@@ -84,6 +125,7 @@ header {
 			margin-left: -17px;
 			color: #CCCCCC;
 		}
+
 #page-img{
 	width:100%;
 }
@@ -96,6 +138,7 @@ header {
 	background: #F5F5F5;
 	transition: left 300ms;
     border-right: 2px solid #eb6751;
+	z-index: 10;
 }
 #sidebar[data-show="true"] {
 	left:0;
@@ -107,6 +150,11 @@ header {
 		#sidebar #sidebar-content > * {
 			margin-top:5px;
 		}
+		#sidebar #sidebar-content img {
+			padding-left: 25%;
+    		padding-top: 20px;
+		}
+
 	#sidebar #sidebar-handle {
 		position: absolute;
 		right: -2px;
@@ -130,3 +178,10 @@ header {
 		#sidebar[data-show="true"] #sidebar-handle-icon-left {
 			display:block!important;
 		}
+
+/******************************************************/
+/********************* Contact ************************/
+/******************************************************/
+.list-group p,h4,a{
+	text-align: center
+}

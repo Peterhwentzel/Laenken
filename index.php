@@ -15,6 +15,12 @@
     <title>Lænken</title>
 </head>
 <body>
+    <div id="desktop-header" class="container">
+        <header>
+            <img src="images/logo.svg" class="image" />
+            <span>Lænke-ambulatorierne<br />(Nordsjælland & Hovedstaden)</span>
+        </header>
+    </div>
 	<?php
     $page = isset($_GET['page']) ? $_GET['page'] : "index";
     if(file_exists("pages/".$page.".php")) {
@@ -24,21 +30,65 @@
         include("pages/index.php");
     }
     ?>
+    <footer id="desktop-footer">
+        <p><b>Kontakt</b></p>
+        <div class="row">
+            <div class="col-xs-4"><a href="tel:36775656" class="btn btn-default col-xs-12 btn-type1"><span class="glyphicon glyphicon-earphone"></span> 36775656</a></div>
+            <div class="col-xs-4"><a href="mailto:lf@laenken.dk" class="btn btn-default col-xs-12 btn-type1"><span class="glyphicon glyphicon-envelope"></span> lf@laenken.dk</a></div>
+            <div class="col-xs-4"><a href="http://www.laenken.dk" class="btn btn-default col-xs-12 btn-type1"><span class="glyphicon glyphicon-link"></span> Lænken</a></div>
+        </div>
+        
+        <div class="text">
+            <div class="col-xs-4">
+                <p><b>Lænkens hovedside</b></p>
+                <ul>
+                    <li><a href="http://www.laenken.dk">www.laenken.dk</a></li>
+                </ul>
+            </div>
+            <div class="col-xs-4">
+                <p><b>Links til andre lokalforeninger/regioner</b></p>
+                <ul>
+                    <li><a href="http://laenken.dk/lokalforeninger/oversigten/herning-laenken/">Herning</a></li>
+                    <li><a href="http://laenken.dk/lokalforeninger/oversigten/aabenraa-laenken/">Aabenraa</a></li>
+                    <li><a href="http://laenken.dk/lokalforeninger/oversigten/graasten-laenken/">Gråsten</a></li>
+                    <li><a href="http://laenken.dk/lokalforeninger/oversigten/soenderborg-laenken/">Sønderborg</a></li>
+                    <li><a href="http://laenken.dk/lokalforeninger/oversigten/guderup-laenken/">Guderup</a></li>
+                    <li><a href="http://laenken.dk/lokalforeninger/oversigten/maribo-laenken/">Maribo</a></li>
+                </ul>
+            </div>
+            <div class="col-xs-4">
+                <p><b>Links til øvrige relevante hjemmesider om emnet</b></p>
+                <ul>
+                    <li><a href="https://www.sundhed.dk/borger/sundhed-og-forebyggelse/livsstil/alkohol/">Sundhed.dk</a></li>
+                    <li><a href="http://www.kk.dk/alkohol">Gratis alkoholbehandling i Københavns Kommune</a></li>
+                    <li><a href="http://www.tjekdinealkoholvaner.dk/">Tjek dine alkohol vaner</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
     <footer id="bottombar" data-show="false">
         <div id="bottombar-handle">
             <span>Kontakt</span>
         </div>
         <div id="bottombar-content">
             <ul>
-                <li><a href="tel:39455544" class="btn btn-default col-xs-12"><span class="glyphicon glyphicon-earphone"></span> 39455544</a></li>
-                <li><a href="mailto:amager@laenke-ambulatorierne.dk" class="btn btn-default col-xs-12"><span class="glyphicon glyphicon-envelope"></span> amager@laenke-ambulatorierne.dk</a></li>
-                <li><a href="http://www.laenken.dk/laenkens-ambulatorier-og-raadgivninger" class="btn btn-default col-xs-12"><span class="glyphicon glyphicon-link"></span> ambulatorium</a></li>
+                <li><a href="tel:36775656" class="btn btn-default col-xs-12 btn-type1"><span class="glyphicon glyphicon-earphone"></span> 36775656</a></li>
+                <li><a href="mailto:lf@laenken.dk" class="btn btn-default col-xs-12 btn-type1"><span class="glyphicon glyphicon-envelope"></span> lf@laenken.dk</a></li>
+                <li><a href="http://www.laenken.dk" class="btn btn-default col-xs-12 btn-type1"><span class="glyphicon glyphicon-link"></span> Lænken</a></li>
             </ul>
         </div>
     </footer>
     <style>
+    #desktop-footer {
+        border-top:1px solid #eb6751;
+        margin-top:10px;
+    }
+    #desktop-footer p {
+        text-align:center;
+    }
     body {
         margin-bottom:40px;
+        overflow-x:hidden;
     }
     #bottombar {
         position:fixed;
@@ -55,8 +105,9 @@
             width:100%;
             height:30px;
             text-align:center;
-            font-size:25px;
+            font-size:16px;
             line-height:30px;
+            cursor:pointer;
         }
         #bottombar #bottombar-content {
             width:100%;
@@ -67,7 +118,8 @@
             list-style:none;
         }
         #bottombar #bottombar-content ul li a {
-            text-align:left;
+            text-align:center;
+            margin-top:2px;
         }
     </style>
     <script>

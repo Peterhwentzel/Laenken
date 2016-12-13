@@ -1,8 +1,6 @@
 <?php
-	include("includes/sidemenuPaarorende.php");
+	include("includes/sidemenuPatient.php");
 ?>
-
-
 <style>
 /*
 .behandling-left img {
