@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" />
     <script src="js/jQuery.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -18,7 +19,7 @@
     <div id="desktop-header" class="container">
         <header>
             <img src="images/logo.svg" class="image" />
-            <span>Lænke-ambulatorierne<br />(Nordsjælland & Hovedstaden)</span>
+            <span>Lænke-ambulatorierne <br class="rwd-break" />(Nordsjælland & Hovedstaden)</span>
         </header>
     </div>
 	<?php
@@ -47,7 +48,7 @@
             </div>
             <div class="col-xs-4">
                 <p><b>Links til andre lokalforeninger/regioner</b></p>
-                <ul>
+                <ul id="regionLink">
                     <li><a href="http://laenken.dk/lokalforeninger/oversigten/herning-laenken/">Herning</a></li>
                     <li><a href="http://laenken.dk/lokalforeninger/oversigten/aabenraa-laenken/">Aabenraa</a></li>
                     <li><a href="http://laenken.dk/lokalforeninger/oversigten/graasten-laenken/">Gråsten</a></li>
@@ -81,10 +82,14 @@
     <style>
     #desktop-footer {
         border-top:1px solid #eb6751;
-        margin-top:10px;
+        margin-top:14%;
     }
     #desktop-footer p {
         text-align:center;
+    }
+    #regionLink{
+        column-count: 2;
+        column-gap: 40px;
     }
     body {
         margin-bottom:40px;
@@ -99,7 +104,7 @@
         transition:bottom 300ms;
     }
     #bottombar[data-show=false] {
-        bottom:-103px!important;
+        bottom:-115px!important;
     }
         #bottombar #bottombar-handle {
             width:100%;

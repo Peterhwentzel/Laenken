@@ -65,11 +65,10 @@
 }
 </style>
 <div id="content" class="container">
-	<!--<img src="images/.jpg" id="page-img"/>-->
 	<div class="text">
 		<h3>Et typisk behandlingsforløb</h3>
 		<div class="behandlings-row behandling-left">
-			<div class="behandling-image-left ">
+			<div class="behandling-image-right ">
 				<img src="images/_bottle.png" />
 			</div>
 			<div class="behandling-number">1</div>
@@ -94,7 +93,7 @@
 			</div>
 		</div>
 		<div class="behandlings-row behandling-left">
-			<div class="behandling-image-left ">
+			<div class="behandling-image-right ">
 				<img src="images/_community.png" />
 			</div>
 			<div class="behandling-number">3</div>

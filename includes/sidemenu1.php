@@ -7,15 +7,17 @@
 		<?php
 			$links = [
 				'index' => 'Forside',
-				'Paarorende' => 'Pårørende',
-				'PaarorendeTegnpaaetmisbrug' => 'Tegn på et misbrug',
-				'PaarorendeBehandlingsforlob' => 'Behandlingsforløb',
-				'PaarorendeSamvaerstotteognetvaerk' => 'Samvær, støtte og netværk',
-				'PaarorendeNyttigelinks' => 'Nyttige links',
-				'PaarorendeKontakt' => 'Hjælp',
+				'Patient' => 'Patient',
+				'PatientHvorforsogehjaelp' => 'Hvorfor søge hjælp?',
+				'PatientSaadanstarterbehandlingen' => 'Sådan starter behandlingen',
+				'PatientAlkoholbehandlingen' => 'Alkoholbehandlingen',
+				'PatientBehandlingsforlob' => 'Behandlingsforløb',
+				'PatientSamvaerstotteognetvaerk' => 'Samvær, støtte og netværk',
+				'PatientNyttigelinks' => 'Nyttige links',
+				'PatientKontakt' => 'Kontakt'
 			];
 			foreach($links as $key => $link) {
-				$style = $page == $key ? 'style="background-color:#ccc;"' : ''; 
+				$style = $page == $key ? 'style="display:none;"' : '';
 				echo '<a href="?page='.$key.'" class="btn btn-default btn-lg col-xs-12 btn-type1" data-key="'.$key.'" '.$style.'>'.$link.'</a>';
 			}
 		?>
@@ -36,7 +38,7 @@
 	#desktop-header {
 		padding-left:280px;
 	}
-	a[data-key="PaarorendeNyttigelinks"] {
+	a[data-key="PatientNyttigelinks"] {
 		display:none;
 	}
 }

@@ -1,6 +1,7 @@
 body {
 	/*background-color:#1d5166;*/
 	background-color:#f4f3eb;
+	font-family: 'Quicksand', sans-serif;
 }
 
 #content {
@@ -16,6 +17,7 @@ body {
 	text-shadow: none;
 	border:none;
 	border-radius: 0;
+	font-size:17px;
 }
 /*
 .btn-type2 {
@@ -56,12 +58,27 @@ body {
         padding-left: 5px;
 		font-size:17px;
 		color:#000;
-		line-height:30px;
+		line-height:28px;
 		margin-top:10px;
 	}
+	header .image {
+		float:left;
+        height: 80px;
+        width: 81px;
+        border-radius: 8px;
+		margin-left: 5px;
+    }
 	.header-img{
 		height: auto;
 		max-height: 300px;
+	}
+	#indexButton{
+		margin-top: 5px;
+
+	}
+	#sidebar #sidebar-content img {
+    	position: initial;
+		margin-top: 45px;
 	}
 }
 
@@ -78,21 +95,37 @@ header {
     padding: 5px 0;
     width: 100%;
 }
-    header .image {
+
+@media (min-width: 768px){
+	header span {
+		float:left;
+		padding-left: 15px;
+		font-size:32px;
+		color:#000;
+		line-height:80px;
+		margin-top:10px;
+		
+	}
+	    header .image {
 		float:left;
         height: 70px;
         width: 70px;
         border-radius: 8px;
 		margin-left: 5px;
     }
-@media (min-width: 768px){
-	header span {
-		float:left;
-		padding-left: 15px;
-		font-size:20px;
-		color:#000;
-		line-height:30px;
-		margin-top:10px;
+	header .image {
+        width: 100px;
+	}
+	.rwd-break { 
+		display: none;
+	 }
+	#indexImg{
+	    max-height: 475px;
+	}
+	#sidebar #sidebar-content img {
+    		position: absolute;
+			left: 0;
+			bottom: 30px;
 	}
 }
 	
@@ -100,14 +133,14 @@ header {
 /********************** Pages *************************/
 /******************************************************/
 .text {
-	margin-top:10px;
+	margin: 10px 0px 15px 15px;
 	color:#000000;
 }
 	.text h3 {
 		color:#69c3c4;
 	}
 	.text p{
-		text-align: justify;
+		text-align: left;
 		margin-right: 15px;
 	}
 	.text ul {
@@ -128,6 +161,7 @@ header {
 
 #page-img{
 	width:100%;
+	max-height: 320px;
 }
 #sidebar {
 	position: fixed;
@@ -146,13 +180,14 @@ header {
 	#sidebar #sidebar-content {
 	    width: 260px;
     	padding: 10px;
+		height:100%;
+		overflow-y:auto;
 	}
 		#sidebar #sidebar-content > * {
 			margin-top:5px;
 		}
 		#sidebar #sidebar-content img {
 			padding-left: 25%;
-    		padding-top: 20px;
 		}
 
 	#sidebar #sidebar-handle {

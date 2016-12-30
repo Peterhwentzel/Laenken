@@ -3,7 +3,7 @@
 ?>
 
 <div id="content" class="container">
-	<!--<img src="images/.jpg" id="page-img"/>-->
+	<!--<img src="images/.jpg" id="page-img"/>--> 
 	<div class="text">
 		<h3>Tegn på et misbrug </h3>
 		<p>Det kan være svært at vide, hvornår man passerer grænsen mellem almindeligt og overdrevent alkoholforbrug.</p>

@@ -5,8 +5,7 @@
 <div id="content" class="container">
 	<div class="text">
 		<h3>Hvorfor søge hjælp?</h3>
-		<p><b>hvad, hvorfor, hvornår..?</b><br>
-		Det kan være svært at vide, hvornår man passerer grænsen mellem almindeligt og overdrevent alkoholforbrug.</p>
+		<p>Det kan være svært at vide, hvornår man passerer grænsen mellem almindeligt og overdrevent alkoholforbrug.</p>
 
 		<p>De følgende tegn bør du især være opmærksom på:</p>
 		<ul>
