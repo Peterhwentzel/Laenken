@@ -1,3 +1,4 @@
+<!-- Som beskrevet i den anden Index fil, kan der ses at der hverken er nogle <Body> eller <head> tags da de bliver indlejeret gennem php koden fra index siden -->
 <div id="content_index" class="container">
 	<header id="mobile-header">
 		<img src="images/logo.svg" class="image" />

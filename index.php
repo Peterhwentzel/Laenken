@@ -15,6 +15,11 @@
     <script src="js/app.js"></script>
     <title>Lænken</title>
 </head>
+<!--
+        Index filen indeholder alle html tags, dette gør at der ikke er nødvendig at indkludere html tags på de andre sider. da vi bruger php, til at indkludere det. 
+        man kan se dette som et skelet eller container for html koden som <head> og <body> tags hvor de andre sider bliver indsat ind i denne container
+
+ -->
 <body>
     <div id="desktop-header" class="container">
         <header>
@@ -80,6 +85,7 @@
         </div>
     </footer>
     <style>
+    /*CSS for Footer for både Desktop og mobil version */
     #desktop-footer {
         border-top:1px solid #eb6751;
         margin-top:14%;
@@ -128,6 +134,8 @@
         }
     </style>
     <script>
+    // jQuery kode der sætter attributen "data-show="false"" som er en attribute på vores footer på mobil versionen til true når der klikkes på den, 
+    //dette gør at den bliver udfoldet opad og viser footeren til brugeren, og sætter den på plads igen når der klikkes igen.
     $(function() {
         $("#bottombar-handle").on("click", function() {
             $("#bottombar").attr("data-show", !($("#bottombar").attr("data-show") == "true"));

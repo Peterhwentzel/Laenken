@@ -1,3 +1,8 @@
+
+<!-- PHP 
+Et array bliver brugt til at indlejer sidebaren, så undersiden til Patient har andre links i sidebaren end Pårørende
+
+-->
 <?php
 $links = [
 	'index' => 'Forside',
